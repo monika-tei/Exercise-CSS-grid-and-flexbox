@@ -9,6 +9,51 @@ main {
   font-size: 0.8rem;
 }
 
+/*okay let's begin*/
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.sale-item {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+article {
+  margin: 0;
+}
+article {
+  display: flex;
+  flex-flow: column;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+}
+
 article button {
   background: teal;
+  border: none;
+  border-radius: 1rem;
+  margin-top: auto;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+article p {
+  margin: 0.5rem 1rem 1rem;
+}
+
+article ul {
+  margin: 0 0rem 1rem;
+}
+
+article h1 {
+  margin: 1rem 1rem 0rem;
 }
